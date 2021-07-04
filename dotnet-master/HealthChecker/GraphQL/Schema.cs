@@ -34,6 +34,7 @@ namespace HealthChecker.GraphQL
             Field(h => h.Id);
             Field(h => h.Name);
             Field(h => h.HealthCheckUri);
+
             Field<StringGraphType>(
                 "status",
                 // TODO: replace with health check code
